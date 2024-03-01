@@ -1,52 +1,44 @@
-.traditions-section{
-    padding: 40px 0 20px 0;
-    font-size: 14px;
+.traditions-section {
+  padding: 40px 0 20px 0;
+  font-size: 14px;
+
+  @media screen and (min-width: $bp-tablet) {
+    font-size: 18px;
+    padding: 96px 0 48px 0;
+  }
+
+  &__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 18px;
+      @media screen and (min-width: $bp-tablet) {
+        justify-content: space-between;
+      }
+    }
+  }
+  &__content {
+    max-width: 710px;
+  }
+  &__title {
+    margin-bottom: 24px;
 
     @media screen and (min-width: $bp-tablet) {
-        font-size: 18px;
-        padding: 96px 0 48px 0;
-     }
-
-    &__container{
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        gap: 40px; @media screen and (min-width: $bp-tablet) {
-        font-size: 18px;
-        @media screen and (min-width: $bp-tablet){
-        
-            justify-content: space-between;
-         }
-     }
-
+      margin-bottom: 42px;
     }
-    &__content {
-        max-width: 710px;
+  }
+  &__text {
+    &--limited {
+      max-width: 350px;
     }
-    &__title{
-        margin-bottom: 24px;
-
-        @media screen and (min-width: $bp-tablet){
-            margin-bottom: 42px;
-        }
+  }
+  &__baker-image {
+    display: none;
+    border-radius: 400px 400px 0px 0px;
+    @media screen and (min-width: $bp-tablet) {
+      display: block;
     }
-    &__text{
-        &--limited{
-        max-width: 350px;
-    }}
-    &__baker-image{
-                display: none;
-            border-radius:  400px 400px 0px 0px;
-            @media screen and (min-width: $bp-tablet){
-                display: block;
-            }
-
-    }
-
+  }
 }
-
-
-
-
-
-

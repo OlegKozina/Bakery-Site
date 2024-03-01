@@ -1,56 +1,49 @@
-.cooks-section{
-    &__title{
-        margin-bottom: 24px;
-        max-width: 520px;
-        position: relative;
-        @media screen and (min-width: $bp-tablet) {
-            margin-bottom: 80px;
-            
-        }
-
-        &::before{
-            display: none;
-            @media screen and (min-width: $bp-desktop) {
-                display: block;
-                width: 352px;
-                height: 2px;
-                background-color: #CFCFBC;
-                content: '';
-                position: absolute;
-                left: -360px;
-                bottom: 24px;
-                 }
-            
-        }
-        
-        &::after{
-            display: none;
-
-            @media screen and (min-width: $bp-desktop) {
-            display: block;
-            width: 352px;
-            height: 2px;
-            background-color: #CFCFBC;
-            content: '';
-            position: absolute;
-            right: -360px;
-            bottom: 24px;
-            }
-           
-        }
+.cooks-section {
+  &__title {
+    margin-bottom: 24px;
+    max-width: 520px;
+    position: relative;
+    @media screen and (min-width: $bp-tablet) {
+      margin-bottom: 80px;
     }
-    &__container{
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        gap: 30px;
-        flex-wrap: wrap;
-        @media screen and (min-width: $bp-desktop) {
-            justify-content: space-between;
-        }
-        
+
+    &::before {
+      display: none;
+      @media screen and (min-width: $bp-desktop) {
+        display: block;
+        width: 352px;
+        height: 2px;
+        background-color: #cfcfbc;
+        content: "";
+        position: absolute;
+        left: -360px;
+        bottom: 24px;
+      }
     }
+
+    &::after {
+      display: none;
+
+      @media screen and (min-width: $bp-desktop) {
+        display: block;
+        width: 352px;
+        height: 2px;
+        background-color: #cfcfbc;
+        content: "";
+        position: absolute;
+        right: -360px;
+        bottom: 24px;
+      }
+    }
+  }
+  &__container {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    @media screen and (min-width: $bp-desktop) {
+      justify-content: space-between;
+    }
+  }
 }
-
-
-

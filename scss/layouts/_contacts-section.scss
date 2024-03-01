@@ -1,47 +1,42 @@
-.contacts-section{
-    &__title{
-        margin-bottom: 16px;
+.contacts-section {
+  &__title {
+    margin-bottom: 16px;
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 0;
+    flex-direction: column;
+    @media screen and (min-width: $bp-tablet) {
+      gap: 40px;
+      padding-bottom: 96px;
+      flex-direction: row;
     }
-    &__container{
-        display: flex;
-        align-items: center;
-        gap: 24px;
-        padding-bottom: 0;
-        flex-direction: column;
-        @media screen and (min-width: $bp-tablet) {
-            gap: 40px;
-            padding-bottom: 96px;
-           flex-direction: row;
-        }
+  }
+  &__map {
+    flex-shrink: 0;
+    height: 176px;
+    margin: 0 -24px;
+    border-radius: 16px;
+    width: 100%;
+    border: none;
 
+    @media screen and (min-width: $bp-tablet) {
+      margin: auto;
+      width: 320px;
+      height: 500px;
     }
-    &__map{
-        
-        flex-shrink: 0;
-        height: 176px;
-        margin: 0 -24px;
-        border-radius: 16px;
-        width: 100%;
-        border: none;
-        
-        @media screen and (min-width: $bp-tablet) {
-            margin: auto;
-              width: 320px;
-              height: 500px;
-          }
-        @media screen and (min-width: $bp-desktop) {
-            width: 603px;
-            height: 595px;
-        }
+    @media screen and (min-width: $bp-desktop) {
+      width: 603px;
+      height: 595px;
     }
-    &__form{
-        max-width: 605px;
-    }
-   &__form-instruction{
+  }
+  &__form {
+    max-width: 605px;
+  }
+  &__form-instruction {
     color: olive;
     text-align: center;
-    
-   }
+  }
 }
-
-
