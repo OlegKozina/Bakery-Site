@@ -1,0 +1,30 @@
+.modal-btn-open{
+    display: block;
+    padding: 10px 20px;
+    background-color: var(--colorb);
+    color: var(--colorch);
+    border:  solid var(--colorb);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    @media screen and (min-width: $bp-tablet){
+        padding: 16px 32px;
+    }
+}
+
+.modal-btn-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    @media screen and (min-width: $bp-tablet){
+        top: 40px;
+        right: 40px;
+    }
+}
+.button:hover{ background-color: transparent;
+    color: #819B57;
+}
+
+.button:active{ background-color: blue;
+    color: var(--colorb);
+}

@@ -1,0 +1,140 @@
+
+.footer {
+    position: relative;
+    text-align: center;
+    padding: 32px 0;
+    // background-image: url('../Html_Images/footer-image.png');
+    background-color: #31261A;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    @media screen and (min-width: $bp-tablet) {
+        
+        text-align: left;
+    }
+    &__logo{
+        z-index: 5;
+        display: inline-block;
+    margin: 0 auto;
+        @media screen and (min-width: $bp-tablet) {
+        
+            justify-content: left;
+        }
+    }
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: top;
+        gap: 20px;
+        @media screen and (min-width: $bp-tablet) {
+            flex-direction:row;
+            gap: 40px;
+            
+        }
+    }
+    &__nav{
+        display: flex;
+        align-items: top;
+        flex-grow: 1;
+        gap: 40px;
+        flex-direction: column;
+    
+        @media screen and (min-width: $bp-tablet) {
+            flex-direction:row;
+           
+            
+        }
+    } 
+    &__contacts_item{
+        font-size: 16px;
+        font-weight: 300;
+        max-width: 211px;
+        color: var(--colorch);
+        text-decoration: none;
+        transition: color .3s;
+        &:hover{
+            color: var(--colorb);
+        }
+        flex-direction: column;
+        @media screen and (min-width: $bp-tablet) {
+            flex-direction:row;
+            
+        }
+    }
+    &__menu{
+        display: flex;
+        z-index: 1;
+        gap: 20px;
+        flex-grow: 1;
+        justify-content: space-evenly;
+        flex-direction: column;
+        @media screen and (min-width: $bp-tablet) {
+            flex-direction:row;
+            gap: 64px;
+        }
+    }
+    &__before{
+        width: 180px;
+        height: 120px;
+        background-repeat: no-repeat;
+    
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+        @media screen and (min-width: $bp-tablet) {
+        
+            bottom: 0;
+            left: 0;
+        }
+        
+   
+    }
+    &__after{
+        width: 329px;
+        
+        height: 154px;
+
+        content: '';
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        @media screen and (min-width: $bp-tablet) {
+            width: 380px;
+            height: 190px;
+            bottom: 0;
+            right: 0;
+        }
+        
+    }
+    &__bottom{
+        z-index: 1;
+    }
+    &__icons{
+        display: flex;
+
+        gap: 20px;
+        justify-content: center;
+        @media screen and (min-width: $bp-tablet) {
+        
+            justify-content: left;
+        }
+
+    }
+    &__protection{
+        color: #A18268;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    &__address-icon{
+        fill: var(--colorch);
+    }
+    
+    
+}
+
+
+
+

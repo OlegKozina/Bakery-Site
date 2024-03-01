@@ -1,0 +1,61 @@
+/* Global */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: var(--color_primarydark);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    background-color: var(--colorch);
+
+  
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+address{
+    font-style: normal;
+}
+*, 
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p{
+    margin-top: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+//Icons
+.fa-brands, .fa-facebook, .fa-bars{
+    font-size: 2em;
+}
+.fa-bars{
+    color:  var(--colorch);
+}
+.fa-bars:hover{
+    color: var(--colorb);
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.9;
+}
