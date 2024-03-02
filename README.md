@@ -12,5 +12,4 @@ Includes logo, navigation, social media buttons, address buttons and added pictu
 
 Added adaptive design to each section.
 
-An easy way to browse the site is by using github preview:
-https://htmlpreview.github.io/?https://github.com/OlegKozina/Bakery-Site/blob/main/index.html
+An easy way to browse the site is by following the link https://olegkozina.github.io/Bakery-Site/
