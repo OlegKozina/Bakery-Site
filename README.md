@@ -2,7 +2,8 @@
 A landing page website for a local bakery. It consists of header, footer, main section and form section
 
 **Web technologies: HTML5, CSS3, Javascript, VS Code.** 
-*To work with this website, ensure you have the **Live Sass compiler**  installed for Sass compilation and use a **Live server** for optimal development experience.*
+*To work with this website, ensure you have the **Live Sass compiler**  installed for Sass compilation and use a **Live server** for optimal development experience.*   
+A link to the design pages for this website https://github.com/OlehKozina/Bakery-Site/tree/main/design%20pages
 
 ### Header
 Includes logo, navigation buttons and 'request a call' button which opens form section.
