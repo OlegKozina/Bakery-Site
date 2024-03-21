@@ -19,4 +19,4 @@ Includes logo, navigation, social media buttons, address buttons and added pictu
 
 Added adaptive design to each section.
 
-An easy way to browse the site is by following the link https://olehkozina.github.io/Bakery-Site/
+An easy way to browse the site is by following the link https://olehkozina.github.io/Bakery-Site/dist/index.html
