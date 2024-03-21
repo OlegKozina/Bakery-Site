@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modern bakery</title>
-    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,17 +14,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
-  </head>
+  <script defer src="bundle72a3e97be02868023b71.js"></script></head>
   <body>
     <header class="header">
       <div class="container">
         <div class="header__container">
           <nav class="header__nav">
             <a class="header__logo" href="#">
-              <img
-                src="./html_Images/logo.svg"
-                alt="Логотип сучасної пекарні"
-              />
+              <img src="images/logo.svg" alt="Логотип сучасної пекарні" />
             </a>
             <ul class="header__menu">
               <li><a class="link" href="#traditions">Our traditions</a></li>
@@ -47,7 +43,7 @@
             <ul class="mobile-menu__nav">
               <li>
                 <img
-                  src="./html_Images/logo_mobile_menu.svg"
+                  src="images/logo_mobile_menu.svg"
                   alt="Логотип сучасної пекарні"
                 />
               </li>
@@ -77,22 +73,7 @@
       </div>
     </header>
     <main>
-      <!--  Add inline style because this picture didn't appear on github pages when added through css -->
-      <section
-        class="hero-section"
-        style="
-          background: linear-gradient(
-              103deg,
-              rgba(18, 18, 17, 0.78) 2.03%,
-              rgba(18, 18, 17, 0.6) 58.46%,
-              rgba(18, 18, 17, 0) 90.36%
-            ),
-            url('./html_Images/hero-section-pic.jpg');
-          background-repeat: no-repeat;
-          background-position: center top;
-          background-size: cover;
-        "
-      >
+      <section class="hero-section">
         <div class="container">
           <h1 class="hero-section__title">
             <span class="text-brand">Modern </span>Bakery
@@ -141,8 +122,8 @@
             </div>
             <img
               class="traditions-section__baker-image"
-              src="./html_Images/baker-man.jpg"
               alt="Чоловік пекар"
+              id="baker_"
             />
           </div>
         </div>
@@ -157,11 +138,7 @@
           <ul class="cooks-section__container">
             <li>
               <article class="chefs-item">
-                <img
-                  class="chefs-item__image"
-                  src="./html_Images/nastia.jpg"
-                  alt="Пекар Настя"
-                />
+                <img class="chefs-item__image" alt="Пекар Настя" id="nastia" />
                 <div class="chefs-item__text">
                   <h3 class="chefs-item__cook">Nastya</h3>
                   <p class="chefs-item__text">Hi, I'm Nastya</p>
@@ -178,11 +155,7 @@
             </li>
             <li>
               <article class="chefs-item">
-                <img
-                  class="chefs-item__image"
-                  src="./html_Images/vlad.jpg"
-                  alt="Пекар Влад"
-                />
+                <img class="chefs-item__image" alt="Пекар Влад" id="vlad" />
                 <div class="chefs-item__text">
                   <h3 class="chefs-item__cook">Vlad</h3>
                   <p class="chefs-item__text">Hi, I'm Vlad</p>
@@ -206,19 +179,7 @@
           <div class="wrapper">
             <i id="left" class="fa-solid fa-angle-left"></i>
             <ul class="carousel">
-              <!-- Add inline styles to the cards because the pictures didn't appear on github pages when added through css -->
-              <li
-                class="card"
-                style="
-                  background-image: linear-gradient(
-                      180deg,
-                      rgba(49, 38, 26, 0) 55.21%,
-                      rgba(49, 38, 26, 0.71) 72.92%,
-                      #31261a 100%
-                    ),
-                    url('./html_Images/model_handlebar.jpg');
-                "
-              >
+              <li class="card card1">
                 <h2>Walrus</h2>
                 <p>Size: up to 120 m2</p>
                 <p>Menu: extended menu</p>
@@ -228,54 +189,21 @@
                 </p>
                 <p>Seats: yes</p>
               </li>
-              <li
-                class="card"
-                style="
-                  background-image: linear-gradient(
-                      180deg,
-                      rgba(49, 38, 26, 0) 55.21%,
-                      rgba(49, 38, 26, 0.71) 72.92%,
-                      #31261a 100%
-                    ),
-                    url('./html_Images/model_horseshoe.png');
-                "
-              >
+              <li class="card card2">
                 <h2>Horseshoe</h2>
                 <p>Size: up to 25 m2</p>
                 <p>Menu: the most popular menu items</p>
                 <p>Staff: 2 cashiers, 2 bakers, 1 baker's assistant</p>
                 <p>Seats: none</p>
               </li>
-              <li
-                class="card"
-                style="
-                  background-image: linear-gradient(
-                      180deg,
-                      rgba(49, 38, 26, 0) 55.21%,
-                      rgba(49, 38, 26, 0.71) 72.92%,
-                      #31261a 100%
-                    ),
-                    url('./html_Images/model_walrus.jpg');
-                "
-              >
+              <li class="card card3">
                 <h2>Handlebar</h2>
                 <p>Size: up to 15 m2</p>
                 <p>Menu: the most popular menu items</p>
                 <p>Staff: 1 salesperson, 1 baker, 1 baker's assistant</p>
                 <p>Seats: none</p>
               </li>
-              <li
-                class="card"
-                style="
-                  background-image: linear-gradient(
-                      180deg,
-                      rgba(49, 38, 26, 0) 55.21%,
-                      rgba(49, 38, 26, 0.71) 72.92%,
-                      #31261a 100%
-                    ),
-                    url('./html_Images/model_handlebar.jpg');
-                "
-              >
+              <li class="card card1">
                 <h2>Walrus</h2>
                 <p>Size: up to 120 m2</p>
                 <p>Menu: extended menu</p>
@@ -285,36 +213,14 @@
                 </p>
                 <p>Seats: yes</p>
               </li>
-              <li
-                class="card"
-                style="
-                  background-image: linear-gradient(
-                      180deg,
-                      rgba(49, 38, 26, 0) 55.21%,
-                      rgba(49, 38, 26, 0.71) 72.92%,
-                      #31261a 100%
-                    ),
-                    url('./html_Images/model_horseshoe.png');
-                "
-              >
+              <li class="card card2">
                 <h2>Horseshoe</h2>
                 <p>Size: up to 25 m2</p>
                 <p>Menu: the most popular menu items</p>
                 <p>Staff: 2 cashiers, 2 bakers, 1 baker's assistant</p>
                 <p>Seats: none</p>
               </li>
-              <li
-                class="card"
-                style="
-                  background-image: linear-gradient(
-                      180deg,
-                      rgba(49, 38, 26, 0) 55.21%,
-                      rgba(49, 38, 26, 0.71) 72.92%,
-                      #31261a 100%
-                    ),
-                    url('./html_Images/model_walrus.jpg');
-                "
-              >
+              <li class="card card3">
                 <h2>Handlebar</h2>
                 <p>Size: up to 15 m2</p>
                 <p>Menu: the most popular menu items</p>
@@ -401,17 +307,14 @@
     </main>
     <footer
       class="footer"
-      style="background-image: url('./html_Images/footer-image.png')"
+      style="background-image: url('images/footer-image.png')"
     >
       <div class="container">
         <div class="footer__container">
           <nav class="footer__nav">
             <div class="footer__logo">
               <a href="BakerySite.html">
-                <img
-                  src="./html_Images/logo.svg"
-                  alt="Логотип сучасної пекарні"
-                />
+                <img src="images/logo.svg" alt="Логотип сучасної пекарні" />
               </a>
             </div>
             <div class="footer__menu">
@@ -468,8 +371,8 @@
           </ul>
         </div>
       </div>
-      <img class="footer__before" src="./html_Images/bread.png" alt="" />
-      <img class="footer__after" src="./html_Images/bread-large.png" alt="" />
+      <img class="footer__before" src="images/bread.png" alt="" />
+      <img class="footer__after" src="images/bread-large.png" alt="" />
     </footer>
     <div class="backdrop is-hidden">
       <div class="modal">
@@ -534,8 +437,5 @@
         </form>
       </div>
     </div>
-    <script src="./js/slider.js"></script>
-    <script src="./js/mobile-menu.js"></script>
-    <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -3,6 +3,16 @@
   position: relative;
   display: flex;
   align-items: center;
+  background: linear-gradient(
+      103deg,
+      rgba(18, 18, 17, 0.78) 2.03%,
+      rgba(18, 18, 17, 0.6) 58.46%,
+      rgba(18, 18, 17, 0) 90.36%
+    ),
+    url("/src/html_Images/hero-section-pic.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
   @media screen and (min-width: $bp-tablet) {
     height: 536px;
   }
