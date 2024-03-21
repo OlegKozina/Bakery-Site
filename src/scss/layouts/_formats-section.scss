@@ -116,31 +116,31 @@
   text-align: end left;
 }
 
-// .card1 {
-//   background-image: linear-gradient(
-//       180deg,
-//       rgba(49, 38, 26, 0) 55.21%,
-//       rgba(49, 38, 26, 0.71) 72.92%,
-//       #31261a 100%
-//     ),
-//     url("images/model_handlebar.jpg");
-// }
-// .card2 {
-//   background-image: linear-gradient(
-//       180deg,
-//       rgba(49, 38, 26, 0) 55.21%,
-//       rgba(49, 38, 26, 0.71) 72.92%,
-//       #31261a 100%
-//     ),
-//     url("images/model_horseshoe.png");
-// }
+.card1 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(49, 38, 26, 0) 55.21%,
+      rgba(49, 38, 26, 0.71) 72.92%,
+      #31261a 100%
+    ),
+    url("/src/html_Images/model_handlebar.jpg");
+}
+.card2 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(49, 38, 26, 0) 55.21%,
+      rgba(49, 38, 26, 0.71) 72.92%,
+      #31261a 100%
+    ),
+    url("/src/html_Images/model_horseshoe.png");
+}
 
-// .card3 {
-//   background-image: linear-gradient(
-//       180deg,
-//       rgba(49, 38, 26, 0) 55.21%,
-//       rgba(49, 38, 26, 0.71) 72.92%,
-//       #31261a 100%
-//     ),
-//     url("images/model_walrus.jpg");
-// }
+.card3 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(49, 38, 26, 0) 55.21%,
+      rgba(49, 38, 26, 0.71) 72.92%,
+      #31261a 100%
+    ),
+    url("/src/html_Images/model_walrus.jpg");
+}
